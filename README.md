@@ -27,9 +27,6 @@ This project addresses a fundamental question in financial machine learning: **D
 - **Size**: 1,043,739 samples (951,222 after preprocessing)
 - **Features**: Timestamp, Open, High, Low, Close, Volume, Number of Trades
 
-Kraken OHLCV dump: https://support.kraken.com/articles/360047124832-downloadable-historical-ohlcvt-open-high-low-close-volume-trades-data
-Download the big zip file and look for the file named "BTCUSD_1.csv"
-
 ### Data Characteristics
 ```
 Sample Rate: 1 minute
@@ -54,8 +51,8 @@ pip install -r requirements.txt
 ### Quick Start
 1. Clone the repository:
 ```bash
-git clone https://github.com/danheyf/dl-final
-cd dl-final
+git clone https://github.com/yourusername/bitcoin-dl-vs-linear.git
+cd bitcoin-dl-vs-linear
 ```
 
 2. Install dependencies:
